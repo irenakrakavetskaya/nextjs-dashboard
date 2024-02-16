@@ -94,6 +94,7 @@ export default async function CustomersTable({
                             alt={`${customer.name}'s profile picture`}
                             width={28}
                             height={28}
+                            priority
                           />
                           <p>{customer.name}</p>
                         </div>
